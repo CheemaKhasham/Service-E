@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: service-e
-        image: your-dockerhub-username/service-e-java:latest # UPDATE THIS
+        image: khasham1/service-e-java:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
